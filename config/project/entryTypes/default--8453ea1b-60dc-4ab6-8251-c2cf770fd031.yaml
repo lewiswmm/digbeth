@@ -1,0 +1,67 @@
+fieldLayouts:
+  483290e0-3a61-44fc-a622-b17abfba02d8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 841ebff7-fae1-4d50-94e0-d121817de38b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 898dfbc1-899e-42a3-9cd3-cbc2caa93565 # Page Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c1b8290c-07d0-45c2-8323-972dfcb520b0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ac10df52-2161-4e70-b868-909862a59460 # Page Info
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bc3492f7-17c7-4f90-99d5-f3e56ab85f10
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9c014e1e-8986-41b8-84df-60a827cfbbfa
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: d28e4460-91a3-4b26-a7ac-9c6f9a0d088b # Pages
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

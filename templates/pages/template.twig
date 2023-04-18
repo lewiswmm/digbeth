@@ -1,0 +1,14 @@
+{% extends "_layout.twig" %}
+
+{% block content %}
+    {% if entry.pageInfo|length > 0 %}
+        {% set template = 'blocks-template' %}
+    {% else %}
+        {% set template = entry.slug %}
+    {% endif %}
+
+    {% include [
+        'views/' ~ template,
+        'views/text-page'
+    ] %}
+{% endblock %}

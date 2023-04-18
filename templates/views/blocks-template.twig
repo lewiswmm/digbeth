@@ -1,0 +1,4 @@
+
+{% for block in entry.pageInfo.all() %}
+    {% include 'partials/page-sections/' ~ block.type %}
+{% endfor %}

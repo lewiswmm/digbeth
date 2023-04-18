@@ -1,0 +1,16 @@
+columnSuffix: piuhgtyj
+contentColumnType: string
+fieldGroup: 40b37fc8-cefe-4aae-96a6-f1cd6413f072 # Pages
+handle: pageInfo
+instructions: null
+name: 'Page Info'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_pageinfo}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

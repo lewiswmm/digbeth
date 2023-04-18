@@ -1,0 +1,94 @@
+field: ac10df52-2161-4e70-b868-909862a59460 # Page Info
+fieldLayouts:
+  9a050a57-ab7b-4365-81da-2bbab7a7aa41:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: cc6ac803-ac8d-41af-b27a-67e17f377f26 # Upper Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 272a4cee-c4c7-4104-8d94-d1d4edab132d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b97bede2-b444-45f8-b40c-4688ff98e9da # Lower Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 94c6aae9-d71f-4ba5-b08e-57387434d2f1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 03218019-9ae2-4a69-a5e8-b6af6424f7ef
+        userCondition: null
+fields:
+  b97bede2-b444-45f8-b40c-4688ff98e9da: # Lower Text
+    columnSuffix: dnyuvwhu
+    contentColumnType: text
+    fieldGroup: null
+    handle: lowerText
+    instructions: null
+    name: 'Lower Text'
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  cc6ac803-ac8d-41af-b27a-67e17f377f26: # Upper Text
+    columnSuffix: twwwgphn
+    contentColumnType: text
+    fieldGroup: null
+    handle: upperText
+    instructions: null
+    name: 'Upper Text'
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: textBoxes
+name: 'Text Boxes'
+sortOrder: 1

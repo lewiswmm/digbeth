@@ -1,0 +1,19 @@
+columnSuffix: sutnmosv
+contentColumnType: text
+fieldGroup: 40b37fc8-cefe-4aae-96a6-f1cd6413f072 # Pages
+handle: pageTitle
+instructions: null
+name: 'Page Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

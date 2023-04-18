@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: pages
+name: Pages
+propagationMethod: all
+siteSettings:
+  aae96ca2-97c6-44c5-97a6-1de165ff9423: # Digbeth Dining Club
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/template.twig
+    uriFormat: '{slug}'
+type: channel

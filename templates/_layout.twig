@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ craft.app.language }}">
+<head>
+    
+
+    {% if metaTags is defined %}
+        <title>{{ metaTags.title ?? '' }}</title>
+        <meta name="title" content="{{ metaTags.title ?? '' }}" />
+        <meta name="description" content="{{ metaTags.description ?? '' }}" />
+    {% else %}
+        <title>{{ siteName }}</title>
+    {% endif %}
+
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="/dist/css/app.min.css" />
+</head>
+<body>
+{% include "partials/header.twig" %}
+
+{% block content %}
+{% endblock %}
+
+{% include "partials/footer.twig" %}
+
+{% block javascripts %}
+    <script type="text/javascript">
+        window.csrfTokenName = "{{ craft.app.config.general.csrfTokenName|e('js') }}";
+        window.csrfTokenValue = "{{ craft.app.request.csrfToken|e('js') }}";
+    </script>
+
+    <script type="text/javascript" src="/dist/js/main.min.js"></script>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,10 @@
+.container {
+	max-width: rem-calc(1300);
+	margin: 0 auto;
+	padding: rem-calc(0 16);
+
+    @include breakpoint(1300 down){
+        width:100%;
+    }
+
+}
